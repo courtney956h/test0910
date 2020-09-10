@@ -24,7 +24,7 @@
     $('.h1Nav > h1 > a').on('click',function(e) {
         e.preventDefault()
         var url = $(this).attr('href')
-        $('#kimBox').load(url)
+        $('#kimBox').load('main.html')
     })
 
 
